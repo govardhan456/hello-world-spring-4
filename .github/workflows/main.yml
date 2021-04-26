@@ -28,16 +28,16 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
-        -name: java version
-         run: java -version
-        - name: maven version
-          run: mvn --version
-          - name: python version
-          run: python --version
-          - name: docker version
-          run: docker -v
-         - name: node version
-          run: node -version
+      - name: java version
+        run: java-version
+      - name: maven version
+        run: mvn --version
+      - name: python version
+        run: python --version
+      - name: docker version
+        run: docker -version
+      - name: node version
+        run: node -v.
 
 
 
@@ -47,5 +47,5 @@ jobs:
 
           
          
-         -name 
+          
         
